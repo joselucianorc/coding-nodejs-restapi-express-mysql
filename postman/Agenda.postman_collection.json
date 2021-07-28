@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "efdc9b51-0b9f-41ab-8427-f4fd71dc0824",
+		"name": "Agenda",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/agenda",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"agenda"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\": \"José\"}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/agenda",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"agenda"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
